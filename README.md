@@ -33,18 +33,27 @@ Example:
 
 
 /############################# 
+
 Database name prefix:		[saccount_]
+
 Table name prefix:		[access_info_]
+
 Hash Database number:		[4]
+
 Hash Table number:		[25]
+
 Generate Result Type:		[console]
 
 
+
 3.Type the sql_template:
+
 SQL EXAMPLE : 
 
 Original Sql : ALTER TABLE `saccount.accessinfo`  ALTER `nick` DROP DEFAULT,  ALTER `username` DROP DEFAULT
-Transfered Sql : ALTER TABLE `#table`  ALTER `nick` DROP DEFAULT,  ALTER `username` DROP DEFAULT;
+
+Transfered Sql : ALTER TABLE `#table`  ALTER `nick` DROP DEFAULT,  ALTER `username` DROP DEFAULT
+
 Please input the unformated sql !!!and replace the target table_name with '#table':
 
 
