@@ -15,12 +15,10 @@ python SqlGenerater.py
 Example:
 
 
-
 ###################################################
 
-  	SQL GENERATER V 1.0
-  	
-	Usage:follow the tip.
+SQL GENERATER V 1.0
+Usage:follow the tip.
 	
 ###################################################
 
