@@ -12,8 +12,9 @@ python SqlGenerater.py
 
 
 
-
 Example:
+
+
 
 /###################################################
   	SQL GENERATER V 1.0
@@ -36,6 +37,11 @@ Generate Result Type:		[console]
 3.Type the sql_template:
 SQL EXAMPLE : 
 
-Original Sql : ALTER TABLE `saccount.accessinfo`  ALTER `nick` DROP DEFAULT,  ALTER `username` DROP DEFAULT;
+Original Sql : ALTER TABLE `saccount.accessinfo`  ALTER `nick` DROP DEFAULT,  ALTER `username` DROP DEFAULT
 Transfered Sql : ALTER TABLE `#table`  ALTER `nick` DROP DEFAULT,  ALTER `username` DROP DEFAULT;
 Please input the unformated sql !!!and replace the target table_name with '#table':
+
+
+
+
+
