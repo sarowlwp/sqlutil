@@ -19,6 +19,7 @@ Example:
   	SQL GENERATER V 1.0
 	Usage:follow the tip.
 /###################################################
+
 1.Configuration Type:
 0.	saccount_.access_info_
 2.Choose one from above or input below and type enter:
