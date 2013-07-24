@@ -96,8 +96,11 @@ for dbindex in range(0,db_num):
     sqllist.append("use `"+current_db_name+"`;") 
     for tableindex in range(0,db_table_num):
                 current_table_name = table_name_prefix+str((tableindex + dbindex*db_table_num));
-                table_name = current_db_name +"`.`" + current_table_name;
+                table_name = "`"+current_db_name +"`.`" + current_table_name+"`";
                 sql = unformat_sql.format(table_name)
+                #if unformat_sql.find("SELECT"):
+                #    if tableindex != db_table_num1-1:
+                #        sql = sql + " UNION "
                 sqllist.append(sql) 
 
 print_sql_list(sqllist,result_type)
